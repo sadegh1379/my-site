@@ -18,7 +18,7 @@
   }
 /* navbar */
 body{
-  background-color: #31261c !important;
+  background-color: #1a1617 !important;
 }
 ul li a{
     font-size: 17px;
@@ -86,10 +86,11 @@ nav{
 
 #ability-ul li{
   line-height: 100px;
-  box-shadow: 5px 5px 20px #924e0d inset ;
   
 }
-
+ability .card{
+  border-color: #924e0d !important;
+}
 
 #phoneMe{
     display: none;
@@ -105,10 +106,6 @@ nav{
     
     height: auto;
 } 
-
-#about .card{
-  box-shadow: 5px 5px 20px #924e0d inset ;
-}
 
 
 /* phone */

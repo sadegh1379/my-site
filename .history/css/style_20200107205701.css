@@ -18,7 +18,7 @@
   }
 /* navbar */
 body{
-  background-color: #31261c !important;
+  background-color: #1a1617 !important;
 }
 ul li a{
     font-size: 17px;
@@ -64,11 +64,10 @@ nav{
 }
 #body-j{
     background-image: url('../img/user.jpg');
-    
    
 }
 .my-name{
-  letter-spacing: -5px;
+  
 }
 
 .card{
@@ -86,10 +85,7 @@ nav{
 
 #ability-ul li{
   line-height: 100px;
-  box-shadow: 5px 5px 20px #924e0d inset ;
-  
 }
-
 
 #phoneMe{
     display: none;
@@ -105,10 +101,6 @@ nav{
     
     height: auto;
 } 
-
-#about .card{
-  box-shadow: 5px 5px 20px #924e0d inset ;
-}
 
 
 /* phone */
