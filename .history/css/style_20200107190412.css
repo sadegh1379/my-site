@@ -7,7 +7,7 @@
   }
 
   
- h1 , h2 , h3 , h5 ,h6 {
+ h1 , h2 , h3 , h5 ,h6 , p {
     font-family: 'myFirstFont';
 }
   /* header */
@@ -18,7 +18,7 @@
   }
 /* navbar */
 body{
-  background-color: #1a1617 !important;
+  /* background-color: #280e19 !important; */
 }
 ul li a{
     font-size: 17px;
@@ -29,27 +29,16 @@ ul li a{
     -o-transition:all 0.75s ease ;
 }
 ul li a:hover{
-    color:#924e0d !important;
+    color:red !important;
     font-weight: bold;
-    
 }
 ul li{
     padding-right: 20px;
-    text-align: center;
 }
 nav{
     border-color: #924e0d !important;
-    box-shadow: 5px 5px 20px #924e0d inset ;
 }
-.bg-mycolor {
-  
-  background-color: #924e0d;
-  
-}
-
-.text-mycolor{
-  color:#924e0d;
-}
+.bg-mycolor , 
 .card{
     background-color: #4e342e;
 }
