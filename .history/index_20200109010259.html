@@ -79,7 +79,6 @@
                       <h3 class=" pt-4"> Sadegh Akbari   </h3>   
                       
             </div>
-      
         
     <div class="container">
     
@@ -273,7 +272,21 @@
             </div>
           </section>
       
+    <!-- chat -->
+   
+    <button class="open-button" onclick="openForm()">Chat</button>
     
+    <div class="chat-popup" id="myForm">
+      <form action=}" class="form-container">
+        <h1>Chat</h1>
+    
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+    
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
 
     <!-- cantact -->
     <div class="contact mb-4" id="contact">
@@ -313,22 +326,7 @@
           </div>
        </div>
       </div>
-      
-  <!-- chat -->
-          
-  <button class="open-button" onclick="openForm()"><i class="fa fa-2x fa-comment"></i></button>
-            
-  <div class="chat-popup text-center" id="myForm">
-    <form  class="form-container">
-      
-  
-      <label  for="msg"><b>پیام</b></label>
-      <textarea placeholder="تایپ کنید" name="msg" required></textarea>
-  
-      <button type="submit" class="btn btn-success">ارسال</button>
-      <button type="button" class="btn cancel" onclick="closeForm()">بستن</button>
-    </form>
-  </div>
+
 
      
   

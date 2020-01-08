@@ -321,7 +321,7 @@ textarea{
 /* When the textarea gets focus, do something */
 .form-container textarea:focus {
   background-color: #ddd;
- 
+  opacity: 0.1;
   outline: none;
 }
 

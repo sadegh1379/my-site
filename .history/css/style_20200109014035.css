@@ -313,7 +313,6 @@ textarea{
   margin: 5px 0 22px 0;
   border: none;
   background: url('../img/live.jpg') no-repeat center;
-  
   resize: none;
   min-height: 200px;
 }
