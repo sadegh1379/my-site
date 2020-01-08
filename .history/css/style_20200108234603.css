@@ -252,7 +252,7 @@ textarea{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #924e0d; 
+  background: 924e0d; 
   border-radius: 10px;
 }
 
