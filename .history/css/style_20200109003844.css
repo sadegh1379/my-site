@@ -81,7 +81,9 @@ nav{
     box-shadow: 5px 5px 20px #924e0d  ;
    
 }
-
+.my-name{
+  letter-spacing: -5px;
+}
 
 .card{
     background-color:black;
@@ -260,7 +262,7 @@ textarea{
 }
   
 
-
+/* text write timer */
   
   
  

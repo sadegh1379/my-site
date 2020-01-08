@@ -53,14 +53,12 @@ function clearInputs(){
 
 var i = 0;
 var txt = 'WEB DEVELOPER FROM IRAN'; /* The text */
-var stxt = 'صادق اکبری'; /* The text */
-
-var speed = 200; /* The speed/duration of the effect in milliseconds */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
 window.addEventListener('DOMContentLoaded', typeWriter);
 function typeWriter() {
+  setInterval( ()=>{} , )
   if (i < txt.length) {
     document.getElementById("demo").innerHTML += txt.charAt(i);
-    document.getElementById('sadeghname').innerHTML += stxt.charAt(i)
     i++;
     setTimeout(typeWriter, speed);
   }

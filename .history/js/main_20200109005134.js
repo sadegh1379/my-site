@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', typeWriter);
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("demo").innerHTML += txt.charAt(i);
-    document.getElementById('sadeghname').innerHTML += stxt.charAt(i)
+    document.getElementById('sadeghname').innerHTML += tx.charAt(i)
     i++;
     setTimeout(typeWriter, speed);
   }
