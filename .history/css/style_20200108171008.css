@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('../font/BYekan.woff');
+  }
+  i{
+      font-family: fontawesome !important;
+  }
+
+  
+ h1 , h2 , h3 , h5 ,h6 {
+    font-family: 'myFirstFont';
+}
+  /* header */
+
+  .header{
+    background: url('../img/header3.jpg')  center ;
+    height: 130px;
+  }
+
+  .header h3{
+    color: white;
+  text-shadow: 10px 10px 5px #000000;
+  }
+/* navbar */
+body{
+  background-color: #1b1107 !important;
+}
+ul li a{
+    font-size: 17px;
+    transition:all 0.5s ease ;
+    -webkit-transition:all 0.75s ease ;
+    -moz-transition:all 0.75s ease ;
+    -ms-transition:all 0.75s ease ;
+    -o-transition:all 0.75s ease ;
+}
+ul li a:hover{
+    color:#924e0d !important;
+    font-weight: bold;
+    
+}
+ul li{
+    padding-right: 20px;
+    text-align: center;
+}
+nav{
+    border-color: #924e0d !important;
+    box-shadow: 5px 5px 20px #924e0d inset ;
+}
+.bg-mycolor {
+  
+  background-color: #924e0d;
+  
+}
+
+.text-mycolor{
+  color:#924e0d;
+}
+.card{
+    background-color: #4e342e;
+}
+
+
+/* body */
+#myimg{
+    width: 50px;
+    border-radius: 60px;
+    border: 3px solid #924e0d;
+    box-shadow: 2px 2px 5px #924e0d  ;
+}
+#body-j{
+    background-image: url('../img/user.jpg');
+    box-shadow: 5px 5px 20px #924e0d  ;
+   
+}
+.my-name{
+  letter-spacing: -5px;
+}
+
+.card{
+    background-color:black;
+}
+
+.modal-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cc{
+    border: 1px solid red;
+}
+
+#ability-ul li{
+  line-height: 100px;
+  box-shadow: 5px 5px 20px #924e0d inset ;
+  
+}
+
+#project-j{
+  box-shadow: 5px 5px 20px #924e0d  ;
+}
+#mylocation{
+  box-shadow: 5px 5px 50px #924e0d  inset;
+}
+#rsvp{
+  box-shadow: 5px 5px 20px #924e0d  ;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+}
+
+#rsvp input{
+  padding: 30px 20px;
+  font-weight: bolder;
+}
+
+textarea{
+  font-weight: bolder;
+}
+
+#phoneMe{
+    display: none;
+}
+ #collapsebtn{
+   background-color: #924e0d !important;
+ }
+#emailMe{
+    display: none;
+}
+
+#project-j{
+    
+    height: auto;
+} 
+
+#about .card{
+  box-shadow: 5px 5px 50px #924e0d inset ;
+}
+
+#contact .card {
+  box-shadow: 5px 5px 50px #924e0d inset ;
+}
+
+/* phone */
+
+
+.bg {
+    float: center;
+    background-image: url('http://demo.css-tricks.ir/off-canvas-menu-effect/img/iphone.png');
+    width : 355px;
+    height : 575px;
+    margin-top : 0px;
+    background-size: 100% 100%;
+    
+  }
+  
+  .container1 {
+    position: relative;
+    top : 82px;
+    width : 255px;
+    height: 410px;
+    overflow : hidden;
+    margin : 0 auto;
+    background-color: #1b1b1b;
+    border-radius: 3px;
+  }
+  
+  .menulink {
+    display : block;
+    position: absolute;
+    z-index : 999;
+    top  : 10px;
+    left : 10px;
+    width : 30px;
+    height : 30px;
+  }
+  
+  .menulink:after , .menulink:before {
+    display : block;
+    content : ' ';
+    position: absolute;
+    background-color: #fff;
+    top   : 0;
+    left  : 0;
+    right : 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 1px;
+    
+  }
+  
+  .menulink:before {
+    width : 30px;
+    height : 4px;
+    animation : bounceIn 0.3s cubic-bezier(.64,.57,.67,1.53);
+  }
+  
+  
+  
+  .menulink:after {
+    width  : 4px;
+    height : 30px;
+    transition : 0.4s cubic-bezier(.64,.57,.67,1.53) all;
+  }
+  
+  .active .menulink:after {
+    transform : scaleY(0); 
+    transition : 0.2s cubic-bezier(.64,.57,.67,1.53) all;
+  }
+  
+  .content {
+    /* background-color: red; */
+    background-image: url('../img/site.JPG');
+    background-position: center;
+    background-size: 270px 410px;
+    width : 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Ropa Sans', sans-serif;
+    color : #fff;
+    padding : 50px 20px;
+    line-height : 22px;
+    box-sizing: border-box;
+    transition : 0.3s .1s ease-out all;
+  }
+  .nav1 {
+    position: absolute;
+    top  : 0;
+    left : 0;
+  }
+  
+ 
+  
+  
+  
+ 
+  
+  
+  
+ 
+  
+ 
+  
+  
+ 
+  
+  
+  
+ 
+  
+  
+  
+ 
+  
+ 
+  
