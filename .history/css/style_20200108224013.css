@@ -28,10 +28,6 @@ body{
   background-color: #1b1107 !important;
   
 }
-
-html {
-  scroll-behavior:   smooth;
-}
 ul li a{
     font-size: 17px;
     transition:all 0.5s ease ;

@@ -21,16 +21,11 @@
   .header h3{
     color: white;
       text-shadow: 10px 10px 5px #000000;
-      
+      web
   }
 /* navbar */
 body{
   background-color: #1b1107 !important;
-  
-}
-
-html {
-  scroll-behavior:   smooth;
 }
 ul li a{
     font-size: 17px;

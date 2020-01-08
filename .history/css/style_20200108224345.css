@@ -30,7 +30,7 @@ body{
 }
 
 html {
-  scroll-behavior:   smooth;
+  scroll-behavior: unset;
 }
 ul li a{
     font-size: 17px;

@@ -26,11 +26,7 @@
 /* navbar */
 body{
   background-color: #1b1107 !important;
-  
-}
-
-html {
-  scroll-behavior:   smooth;
+  -webkit
 }
 ul li a{
     font-size: 17px;
